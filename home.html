@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="titulo">Usted está en home</div>
+
+    <div class="contenedor_sitio">
+        <h1 id="titulo">Bienvenido a Safari</h1>
+
+        <div class="atrapa">
+            <div class="menu">
+                <div class="opciones">Seleccione su APP</div>
+                <img class="botones" src="img/home.png" onclick="mostrarUno()"><br>
+                <img class="botones" src="img/waz.png" onclick="mostrarDos()"><br>
+                <img class="botones" src="img/zpo.png" onclick="mostrarTres()"><br>
+            </div>
+
+            <div class="contenido">
+                <iframe id="test" src="elegir_opcion.html"></iframe>
+                <iframe id="home" src="opcion_1.html" style="display:none"></iframe>
+                <iframe id="whazzap" src="asa.html" style="display:none"></iframe>
+                <iframe id="zpotify" src="opcion_3.html" style="display:none"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
